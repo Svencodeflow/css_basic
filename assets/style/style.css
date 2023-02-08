@@ -33,9 +33,9 @@ body .traveller p {
 
 body header {
     background-image: url("../img/bg.avif");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 100vw;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -59,13 +59,19 @@ main .trip h1 {
     font-family: "cinzel";
 }
 
-main .trip p {
+/* main .trip p {
     font-family: "poppins";
     font-size: 2rem;
     margin-top: 2em;
     margin-left: 10em;
     margin-bottom: 1em;
     width: 1500px;
+} */
+
+main .trip p {
+    width: 60%;
+    margin: 0px auto 100px auto;
+    font-size: 18px;
 }
 
 /* Reise Bilder */
@@ -104,7 +110,7 @@ body main section .tour_dates h2 {
 
 #only::after {
     color: red;
-    content:  " - ONLY 4 SPOT AVAILABLE";
+    content: " - ONLY 4 SPOT AVAILABLE";
 }
 
 .tour_dates .ava::after {
