@@ -1,0 +1,130 @@
+/* Generell */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: "poppins";
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "cinzel";
+    src: url("../font/Cinzel-VariableFont_wght.ttf");
+}
+
+/* Header */
+
+body .traveller p {
+    font-size: 2rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    color: grey;
+}
+
+body header {
+    background-image: url("../img/bg.avif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+}
+
+body header h1 {
+    font-size: 7rem;
+    text-align: center;
+    padding-top: 4em;
+    color: white;
+    font-family: "cinzel";
+}
+
+/* Main */
+
+main .trip {
+    text-align: center;
+}
+
+main .trip h1 {
+    font-size: 8rem;
+    margin-bottom: 1em;
+    font-family: "cinzel";
+}
+
+main .trip p {
+    font-family: "poppins";
+    font-size: 2rem;
+    margin-top: 2em;
+    margin-left: 10em;
+    margin-bottom: 1em;
+    width: 1500px;
+}
+
+/* Reise Bilder */
+
+main div img {
+    margin-left: 2%;
+    margin-top: 10em;
+    margin-right: 1%;
+    padding-left: 5em;
+}
+
+
+/* Tour Daten */
+
+.tour_dates {
+    text-align: center;
+}
+
+body main section .tour_dates h2 {
+    margin-top: 2em;
+    font-size: 5rem;
+    font-family: "cinzel";
+}
+
+.tour_dates p {
+    font-size: 2em;
+    text-align: left;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.tour_dates p::after {
+    color: red;
+    content: " - SOLD OUT";
+}
+
+#only::after {
+    color: red;
+    content:  " - ONLY 4 SPOT AVAILABLE";
+}
+
+.tour_dates .ava::after {
+    color: green;
+    content: " - AVAILABLE";
+}
+
+/* contact */
+
+.social {
+    width: 100%;
+    border-top: solid grey;
+    margin-top: 4em;
+
+}
+
+.contact {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 4rem;
+    font-family: "cinzel";
+}
