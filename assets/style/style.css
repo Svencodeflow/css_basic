@@ -68,15 +68,6 @@ main .trip h1 {
     font-family: "cinzel";
 }
 
-/* main .trip p {
-    font-family: "poppins";
-    font-size: 2rem;
-    margin-top: 2em;
-    margin-left: 10em;
-    margin-bottom: 1em;
-    width: 1500px;
-} */
-
 main .trip p {
     width: 60%;
     margin: 0px auto 100px auto;
@@ -130,10 +121,8 @@ body main section .tour_dates h2 {
 /* contact */
 
 .social {
-    width: 100%;
     border-top: solid grey;
     margin-top: 4em;
-
 }
 
 .contact {
